@@ -1,0 +1,12 @@
+flask
+markupsafe
+cryptography
+requests
+oauthlib
+pyOpenSSL
+Flask-Login
+flask-injector
+PyJWT
+flask-cors
+opencv-python
+numpy

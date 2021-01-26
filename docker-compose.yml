@@ -1,0 +1,12 @@
+version: "3"
+services:
+  backend:
+    build:
+      dockerfile: Dockerfile
+      context: ./docker/
+    command: server.py
+    working_dir: /app
+    ports:
+      - 5000:5000
+    volumes:
+      - ./backend:/app:delegated
