@@ -2,7 +2,7 @@
 
 exports[`Storyshots Atoms/AddButton Default 1`] = `
 <button
-  className="sc-bdfBwQ gFhRKa"
+  className="sc-bdfBwQ kscQwO"
   onClick={[Function]}
 >
   <svg>
@@ -13,7 +13,7 @@ exports[`Storyshots Atoms/AddButton Default 1`] = `
 
 exports[`Storyshots Atoms/AddButton Playground 1`] = `
 <button
-  className="sc-bdfBwQ gFhRKa"
+  className="sc-bdfBwQ kscQwO"
   onClick={[Function]}
 >
   <svg>
@@ -24,13 +24,13 @@ exports[`Storyshots Atoms/AddButton Playground 1`] = `
 
 exports[`Storyshots Atoms/FilterCard Default 1`] = `
 <div
-  className="sc-gsTCUz inbFPe"
+  className="sc-gsTCUz FwUaO"
 >
   <h3>
     canny
   </h3>
   <div
-    className="sc-dlfnbm iWmWxl"
+    className="sc-dlfnbm kWfklB"
   >
     <label
       className="sc-eCssSg"
@@ -39,7 +39,7 @@ exports[`Storyshots Atoms/FilterCard Default 1`] = `
       threshold1
     </label>
     <input
-      className="sc-hKgILt hEumgR"
+      className="sc-hKgILt gTxIiJ"
       id="Name"
       name="Name"
       onChange={[Function]}
@@ -48,7 +48,7 @@ exports[`Storyshots Atoms/FilterCard Default 1`] = `
     />
   </div>
   <div
-    className="sc-dlfnbm iWmWxl"
+    className="sc-dlfnbm kWfklB"
   >
     <label
       className="sc-eCssSg"
@@ -57,7 +57,7 @@ exports[`Storyshots Atoms/FilterCard Default 1`] = `
       threshold2
     </label>
     <input
-      className="sc-hKgILt hEumgR"
+      className="sc-hKgILt gTxIiJ"
       id="Name"
       name="Name"
       onChange={[Function]}
@@ -70,13 +70,13 @@ exports[`Storyshots Atoms/FilterCard Default 1`] = `
 
 exports[`Storyshots Atoms/FilterCard Playground 1`] = `
 <div
-  className="sc-gsTCUz inbFPe"
+  className="sc-gsTCUz FwUaO"
 >
   <h3>
     canny
   </h3>
   <div
-    className="sc-dlfnbm iWmWxl"
+    className="sc-dlfnbm kWfklB"
   >
     <label
       className="sc-eCssSg"
@@ -85,7 +85,7 @@ exports[`Storyshots Atoms/FilterCard Playground 1`] = `
       threshold1
     </label>
     <input
-      className="sc-hKgILt hEumgR"
+      className="sc-hKgILt gTxIiJ"
       id="Name"
       name="Name"
       onChange={[Function]}
@@ -94,7 +94,7 @@ exports[`Storyshots Atoms/FilterCard Playground 1`] = `
     />
   </div>
   <div
-    className="sc-dlfnbm iWmWxl"
+    className="sc-dlfnbm kWfklB"
   >
     <label
       className="sc-eCssSg"
@@ -103,7 +103,7 @@ exports[`Storyshots Atoms/FilterCard Playground 1`] = `
       threshold2
     </label>
     <input
-      className="sc-hKgILt hEumgR"
+      className="sc-hKgILt gTxIiJ"
       id="Name"
       name="Name"
       onChange={[Function]}
@@ -116,16 +116,16 @@ exports[`Storyshots Atoms/FilterCard Playground 1`] = `
 
 exports[`Storyshots Molecules/FiltersViewer Default 1`] = `
 <div
-  className="sc-jSgupP gSMlvQ"
+  className="sc-jSgupP kyGMTA"
 >
   <div
-    className="sc-gsTCUz inbFPe"
+    className="sc-gsTCUz FwUaO"
   >
     <h3>
       canny
     </h3>
     <div
-      className="sc-dlfnbm iWmWxl"
+      className="sc-dlfnbm kWfklB"
     >
       <label
         className="sc-eCssSg"
@@ -134,7 +134,7 @@ exports[`Storyshots Molecules/FiltersViewer Default 1`] = `
         threshold1
       </label>
       <input
-        className="sc-hKgILt hEumgR"
+        className="sc-hKgILt gTxIiJ"
         id="Name"
         name="Name"
         onChange={[Function]}
@@ -143,7 +143,7 @@ exports[`Storyshots Molecules/FiltersViewer Default 1`] = `
       />
     </div>
     <div
-      className="sc-dlfnbm iWmWxl"
+      className="sc-dlfnbm kWfklB"
     >
       <label
         className="sc-eCssSg"
@@ -152,7 +152,7 @@ exports[`Storyshots Molecules/FiltersViewer Default 1`] = `
         threshold2
       </label>
       <input
-        className="sc-hKgILt hEumgR"
+        className="sc-hKgILt gTxIiJ"
         id="Name"
         name="Name"
         onChange={[Function]}
@@ -166,16 +166,16 @@ exports[`Storyshots Molecules/FiltersViewer Default 1`] = `
 
 exports[`Storyshots Molecules/FiltersViewer Playground 1`] = `
 <div
-  className="sc-jSgupP gSMlvQ"
+  className="sc-jSgupP kyGMTA"
 >
   <div
-    className="sc-gsTCUz inbFPe"
+    className="sc-gsTCUz FwUaO"
   >
     <h3>
       canny
     </h3>
     <div
-      className="sc-dlfnbm iWmWxl"
+      className="sc-dlfnbm kWfklB"
     >
       <label
         className="sc-eCssSg"
@@ -184,7 +184,7 @@ exports[`Storyshots Molecules/FiltersViewer Playground 1`] = `
         threshold1
       </label>
       <input
-        className="sc-hKgILt hEumgR"
+        className="sc-hKgILt gTxIiJ"
         id="Name"
         name="Name"
         onChange={[Function]}
@@ -193,7 +193,7 @@ exports[`Storyshots Molecules/FiltersViewer Playground 1`] = `
       />
     </div>
     <div
-      className="sc-dlfnbm iWmWxl"
+      className="sc-dlfnbm kWfklB"
     >
       <label
         className="sc-eCssSg"
@@ -202,7 +202,7 @@ exports[`Storyshots Molecules/FiltersViewer Playground 1`] = `
         threshold2
       </label>
       <input
-        className="sc-hKgILt hEumgR"
+        className="sc-hKgILt gTxIiJ"
         id="Name"
         name="Name"
         onChange={[Function]}
@@ -216,10 +216,10 @@ exports[`Storyshots Molecules/FiltersViewer Playground 1`] = `
 
 exports[`Storyshots Molecules/ImageHolder Primary 1`] = `
 <div
-  className="sc-gKsewC donfPr"
+  className="sc-gKsewC jdrmeL"
 >
   <div
-    className="sc-iBPRYJ fzwuen"
+    className="sc-iBPRYJ ktjvtX"
   >
     
   </div>
@@ -228,21 +228,21 @@ exports[`Storyshots Molecules/ImageHolder Primary 1`] = `
 
 exports[`Storyshots Molecules/ImageUploader Default 1`] = `
 <div
-  className="sc-fubCfw jDQQiB"
+  className="sc-fubCfw fnSqbN"
   onDragEnter={[Function]}
   onDragLeave={[Function]}
   onDragOver={[Function]}
   onDrop={[Function]}
 >
   <div
-    className="sc-pFZIQ eWyoNh"
+    className="sc-pFZIQ ewLdvF"
   >
     
     <div
-      className="sc-jrAGrp bAtotA"
+      className="sc-jrAGrp dzKguM"
     >
       <div
-        className="sc-kEjbxe kcENuu"
+        className="sc-kEjbxe cQcmgC"
       >
         <svg>
           upload.svg
@@ -258,21 +258,21 @@ exports[`Storyshots Molecules/ImageUploader Default 1`] = `
 
 exports[`Storyshots Molecules/ImageUploader Playground 1`] = `
 <div
-  className="sc-fubCfw jDQQiB"
+  className="sc-fubCfw fnSqbN"
   onDragEnter={[Function]}
   onDragLeave={[Function]}
   onDragOver={[Function]}
   onDrop={[Function]}
 >
   <div
-    className="sc-pFZIQ eWyoNh"
+    className="sc-pFZIQ ewLdvF"
   >
     
     <div
-      className="sc-jrAGrp bAtotA"
+      className="sc-jrAGrp dzKguM"
     >
       <div
-        className="sc-kEjbxe kcENuu"
+        className="sc-kEjbxe cQcmgC"
       >
         <svg>
           upload.svg
@@ -288,16 +288,16 @@ exports[`Storyshots Molecules/ImageUploader Playground 1`] = `
 
 exports[`Storyshots Molecules/ModulesSearcher Default 1`] = `
 <div
-  className="sc-iqHYGH fIXTMS"
+  className="sc-iqHYGH blTBBi"
 >
   <div
-    className="sc-gsTCUz inbFPe"
+    className="sc-gsTCUz FwUaO"
   >
     <h3>
       canny
     </h3>
     <div
-      className="sc-dlfnbm iWmWxl"
+      className="sc-dlfnbm kWfklB"
     >
       <label
         className="sc-eCssSg"
@@ -306,7 +306,7 @@ exports[`Storyshots Molecules/ModulesSearcher Default 1`] = `
         threshold1
       </label>
       <input
-        className="sc-hKgILt hEumgR"
+        className="sc-hKgILt gTxIiJ"
         id="Name"
         name="Name"
         onChange={[Function]}
@@ -315,7 +315,7 @@ exports[`Storyshots Molecules/ModulesSearcher Default 1`] = `
       />
     </div>
     <div
-      className="sc-dlfnbm iWmWxl"
+      className="sc-dlfnbm kWfklB"
     >
       <label
         className="sc-eCssSg"
@@ -324,7 +324,7 @@ exports[`Storyshots Molecules/ModulesSearcher Default 1`] = `
         threshold2
       </label>
       <input
-        className="sc-hKgILt hEumgR"
+        className="sc-hKgILt gTxIiJ"
         id="Name"
         name="Name"
         onChange={[Function]}
@@ -334,13 +334,13 @@ exports[`Storyshots Molecules/ModulesSearcher Default 1`] = `
     </div>
   </div>
   <div
-    className="sc-gsTCUz inbFPe"
+    className="sc-gsTCUz FwUaO"
   >
     <h3>
       NotCanny
     </h3>
     <div
-      className="sc-dlfnbm iWmWxl"
+      className="sc-dlfnbm kWfklB"
     >
       <label
         className="sc-eCssSg"
@@ -349,7 +349,7 @@ exports[`Storyshots Molecules/ModulesSearcher Default 1`] = `
         threshold1
       </label>
       <input
-        className="sc-hKgILt hEumgR"
+        className="sc-hKgILt gTxIiJ"
         id="Name"
         name="Name"
         onChange={[Function]}
@@ -358,7 +358,7 @@ exports[`Storyshots Molecules/ModulesSearcher Default 1`] = `
       />
     </div>
     <div
-      className="sc-dlfnbm iWmWxl"
+      className="sc-dlfnbm kWfklB"
     >
       <label
         className="sc-eCssSg"
@@ -367,7 +367,7 @@ exports[`Storyshots Molecules/ModulesSearcher Default 1`] = `
         threshold2
       </label>
       <input
-        className="sc-hKgILt hEumgR"
+        className="sc-hKgILt gTxIiJ"
         id="Name"
         name="Name"
         onChange={[Function]}
@@ -381,16 +381,16 @@ exports[`Storyshots Molecules/ModulesSearcher Default 1`] = `
 
 exports[`Storyshots Molecules/ModulesSearcher Playground 1`] = `
 <div
-  className="sc-iqHYGH htMlll"
+  className="sc-iqHYGH dyseYp"
 >
   <div
-    className="sc-gsTCUz inbFPe"
+    className="sc-gsTCUz FwUaO"
   >
     <h3>
       canny
     </h3>
     <div
-      className="sc-dlfnbm iWmWxl"
+      className="sc-dlfnbm kWfklB"
     >
       <label
         className="sc-eCssSg"
@@ -399,7 +399,7 @@ exports[`Storyshots Molecules/ModulesSearcher Playground 1`] = `
         threshold1
       </label>
       <input
-        className="sc-hKgILt hEumgR"
+        className="sc-hKgILt gTxIiJ"
         id="Name"
         name="Name"
         onChange={[Function]}
@@ -408,7 +408,7 @@ exports[`Storyshots Molecules/ModulesSearcher Playground 1`] = `
       />
     </div>
     <div
-      className="sc-dlfnbm iWmWxl"
+      className="sc-dlfnbm kWfklB"
     >
       <label
         className="sc-eCssSg"
@@ -417,7 +417,7 @@ exports[`Storyshots Molecules/ModulesSearcher Playground 1`] = `
         threshold2
       </label>
       <input
-        className="sc-hKgILt hEumgR"
+        className="sc-hKgILt gTxIiJ"
         id="Name"
         name="Name"
         onChange={[Function]}
@@ -427,13 +427,13 @@ exports[`Storyshots Molecules/ModulesSearcher Playground 1`] = `
     </div>
   </div>
   <div
-    className="sc-gsTCUz inbFPe"
+    className="sc-gsTCUz FwUaO"
   >
     <h3>
       NotCanny
     </h3>
     <div
-      className="sc-dlfnbm iWmWxl"
+      className="sc-dlfnbm kWfklB"
     >
       <label
         className="sc-eCssSg"
@@ -442,7 +442,7 @@ exports[`Storyshots Molecules/ModulesSearcher Playground 1`] = `
         threshold1
       </label>
       <input
-        className="sc-hKgILt hEumgR"
+        className="sc-hKgILt gTxIiJ"
         id="Name"
         name="Name"
         onChange={[Function]}
@@ -451,7 +451,7 @@ exports[`Storyshots Molecules/ModulesSearcher Playground 1`] = `
       />
     </div>
     <div
-      className="sc-dlfnbm iWmWxl"
+      className="sc-dlfnbm kWfklB"
     >
       <label
         className="sc-eCssSg"
@@ -460,7 +460,7 @@ exports[`Storyshots Molecules/ModulesSearcher Playground 1`] = `
         threshold2
       </label>
       <input
-        className="sc-hKgILt hEumgR"
+        className="sc-hKgILt gTxIiJ"
         id="Name"
         name="Name"
         onChange={[Function]}
