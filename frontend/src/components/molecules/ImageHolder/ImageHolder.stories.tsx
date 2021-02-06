@@ -8,7 +8,6 @@ export default {
   component: ImageHolder,
 } as Meta;
 
-const Template: Story = () => <ImageHolder image='' />;
+const Template: Story = () => <ImageHolder image="" />;
 
 export const Primary = Template.bind({});
-
