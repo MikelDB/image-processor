@@ -1,8 +1,8 @@
-
+import React from 'react';
 import { GlobalStyle } from '../src/utilities';
 
 export const parameters = {
-  actions: { argTypesRegex: "^on[A-Z].*" },
+  actions: { argTypesRegex: '^on[A-Z].*' },
   backgrounds: {
     default: 'dark',
     values: [
@@ -18,4 +18,11 @@ export const parameters = {
   },
 };
 
-export const decorators = [(Story) => <><GlobalStyle /><Story/></>];
+export const decorators = [
+  (Story) => (
+    <>
+      <GlobalStyle />
+      <Story />
+    </>
+  ),
+];

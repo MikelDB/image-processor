@@ -14,7 +14,7 @@ ReactDOM.render(
           <App />
         </>
       </FiltersContextProvider>
-    </ImagesContextProvider>  
+    </ImagesContextProvider>
   </React.StrictMode>,
   document.getElementById('root')
 );
