@@ -1,0 +1,18 @@
+name: CI
+
+on:
+  pull_request:
+    branches: [ main ]
+
+jobs:
+  Frontend:
+    name: Frontend
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v2
+      - name: Install node_modules
+        run: yarn
+        working-directory: ./frontend
+      - name: Unit tests
+        run: yarn test
+        working-directory: ./frontend
