@@ -16,9 +16,3 @@ jobs:
       - name: Unit tests
         run: yarn test
         working-directory: ./frontend
-      - name: Linter
-        run: yarn lint
-        working-directory: ./frontend
-      - name: Build
-        run: yarn build
-        working-directory: ./frontend
