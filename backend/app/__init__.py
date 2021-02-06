@@ -1,24 +1,17 @@
-from flask import Flask, request, make_response
+from flask import Flask, request
 from flask_cors import cross_origin
-import cv2
-import numpy as np
-from app.image_processor.filters import canny_filter
+
+from app.image_processor.data_transformers import request_filters_to_value_objects, request_image_to_opencv_image, image_to_response
+from app.image_processor.use_cases import apply_actions_to_image
 
 app = Flask(__name__)
 
-
-@app.route('/')
-def index():
-    return {
-        'message': 'It works'
-    }
-
-@app.route('/image/', methods=['POST'])
+@app.route('/image/process', methods=['POST'])
 @cross_origin()
 def setImage():
-    file = request.files['file']
-    npimg = np.fromfile(file, np.uint8)
-    opencv_image = cv2.imdecode(npimg, cv2.IMREAD_COLOR)
+    filters = request_filters_to_value_objects(request)
+    opencv_image = request_image_to_opencv_image(request)
 
-    _, buffer = cv2.imencode('.png', canny_filter(opencv_image))
-    return make_response(buffer.tobytes())  
+    image = apply_actions_to_image(opencv_image, filters)
+
+    return image_to_response(image)

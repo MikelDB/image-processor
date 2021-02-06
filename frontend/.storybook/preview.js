@@ -1,4 +1,6 @@
 
+import { GlobalStyle } from '../src/utilities';
+
 export const parameters = {
   actions: { argTypesRegex: "^on[A-Z].*" },
   backgrounds: {
@@ -14,4 +16,6 @@ export const parameters = {
       },
     ],
   },
-}
+};
+
+export const decorators = [(Story) => <><GlobalStyle /><Story/></>];

@@ -2,25 +2,18 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 import { App } from './pages/App';
 import reportWebVitals from './reportWebVitals';
-import { ImagesContextProvider } from './store';
-import { createGlobalStyle } from 'styled-components'
-
-const GlobalStyle = createGlobalStyle`
-  * {
-    box-sizing: border-box;
-    margin: 0;
-    padding: 0;
-    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
-  }
-`;
+import { ImagesContextProvider, FiltersContextProvider } from './store';
+import { GlobalStyle } from 'utilities';
 
 ReactDOM.render(
   <React.StrictMode>
     <ImagesContextProvider>
-      <>
-        <GlobalStyle />
-        <App />
-      </>
+      <FiltersContextProvider>
+        <>
+          <GlobalStyle />
+          <App />
+        </>
+      </FiltersContextProvider>
     </ImagesContextProvider>  
   </React.StrictMode>,
   document.getElementById('root')

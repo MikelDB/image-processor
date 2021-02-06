@@ -2,3 +2,4 @@ frontend/node_modules
 .vscode
 backend/cert.pem
 backend/key.pem
+node_modules

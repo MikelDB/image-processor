@@ -11,8 +11,9 @@ export const AppContainer = styled.div`
 `;
 
 export const MainContainer = styled.div`
-    width: 1000px;
+    width: 1200px;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
+    align-items: center;
 `;

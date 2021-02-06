@@ -1,1 +1,2 @@
-export { UploadYourFile } from './UploadYourFile';
+export { FilterCard } from './FilterCard';
+export { AddButton } from './AddButton';

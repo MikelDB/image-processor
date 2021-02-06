@@ -1,4 +1,4 @@
 import cv2
 
-def canny_filter(image):
-    return cv2.Canny(image, 100, 180)
+def canny_filter(image, threshold1, threshold2):
+    return cv2.Canny(image, threshold1, threshold2)

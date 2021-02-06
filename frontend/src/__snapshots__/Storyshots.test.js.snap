@@ -1,0 +1,473 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Storyshots Atoms/AddButton Default 1`] = `
+<button
+  className="sc-bdfBwQ gFhRKa"
+  onClick={[Function]}
+>
+  <svg>
+    iconmonstr-plus-2.svg
+  </svg>
+</button>
+`;
+
+exports[`Storyshots Atoms/AddButton Playground 1`] = `
+<button
+  className="sc-bdfBwQ gFhRKa"
+  onClick={[Function]}
+>
+  <svg>
+    iconmonstr-plus-2.svg
+  </svg>
+</button>
+`;
+
+exports[`Storyshots Atoms/FilterCard Default 1`] = `
+<div
+  className="sc-gsTCUz inbFPe"
+>
+  <h3>
+    canny
+  </h3>
+  <div
+    className="sc-dlfnbm iWmWxl"
+  >
+    <label
+      className="sc-eCssSg"
+      htmlFor="Name"
+    >
+      threshold1
+    </label>
+    <input
+      className="sc-hKgILt hEumgR"
+      id="Name"
+      name="Name"
+      onChange={[Function]}
+      type="number"
+      value={100}
+    />
+  </div>
+  <div
+    className="sc-dlfnbm iWmWxl"
+  >
+    <label
+      className="sc-eCssSg"
+      htmlFor="Name"
+    >
+      threshold2
+    </label>
+    <input
+      className="sc-hKgILt hEumgR"
+      id="Name"
+      name="Name"
+      onChange={[Function]}
+      type="number"
+      value={180}
+    />
+  </div>
+</div>
+`;
+
+exports[`Storyshots Atoms/FilterCard Playground 1`] = `
+<div
+  className="sc-gsTCUz inbFPe"
+>
+  <h3>
+    canny
+  </h3>
+  <div
+    className="sc-dlfnbm iWmWxl"
+  >
+    <label
+      className="sc-eCssSg"
+      htmlFor="Name"
+    >
+      threshold1
+    </label>
+    <input
+      className="sc-hKgILt hEumgR"
+      id="Name"
+      name="Name"
+      onChange={[Function]}
+      type="number"
+      value={100}
+    />
+  </div>
+  <div
+    className="sc-dlfnbm iWmWxl"
+  >
+    <label
+      className="sc-eCssSg"
+      htmlFor="Name"
+    >
+      threshold2
+    </label>
+    <input
+      className="sc-hKgILt hEumgR"
+      id="Name"
+      name="Name"
+      onChange={[Function]}
+      type="number"
+      value={180}
+    />
+  </div>
+</div>
+`;
+
+exports[`Storyshots Molecules/FiltersViewer Default 1`] = `
+<div
+  className="sc-jSgupP gSMlvQ"
+>
+  <div
+    className="sc-gsTCUz inbFPe"
+  >
+    <h3>
+      canny
+    </h3>
+    <div
+      className="sc-dlfnbm iWmWxl"
+    >
+      <label
+        className="sc-eCssSg"
+        htmlFor="Name"
+      >
+        threshold1
+      </label>
+      <input
+        className="sc-hKgILt hEumgR"
+        id="Name"
+        name="Name"
+        onChange={[Function]}
+        type="number"
+        value={100}
+      />
+    </div>
+    <div
+      className="sc-dlfnbm iWmWxl"
+    >
+      <label
+        className="sc-eCssSg"
+        htmlFor="Name"
+      >
+        threshold2
+      </label>
+      <input
+        className="sc-hKgILt hEumgR"
+        id="Name"
+        name="Name"
+        onChange={[Function]}
+        type="number"
+        value={180}
+      />
+    </div>
+  </div>
+</div>
+`;
+
+exports[`Storyshots Molecules/FiltersViewer Playground 1`] = `
+<div
+  className="sc-jSgupP gSMlvQ"
+>
+  <div
+    className="sc-gsTCUz inbFPe"
+  >
+    <h3>
+      canny
+    </h3>
+    <div
+      className="sc-dlfnbm iWmWxl"
+    >
+      <label
+        className="sc-eCssSg"
+        htmlFor="Name"
+      >
+        threshold1
+      </label>
+      <input
+        className="sc-hKgILt hEumgR"
+        id="Name"
+        name="Name"
+        onChange={[Function]}
+        type="number"
+        value={100}
+      />
+    </div>
+    <div
+      className="sc-dlfnbm iWmWxl"
+    >
+      <label
+        className="sc-eCssSg"
+        htmlFor="Name"
+      >
+        threshold2
+      </label>
+      <input
+        className="sc-hKgILt hEumgR"
+        id="Name"
+        name="Name"
+        onChange={[Function]}
+        type="number"
+        value={180}
+      />
+    </div>
+  </div>
+</div>
+`;
+
+exports[`Storyshots Molecules/ImageHolder Primary 1`] = `
+<div
+  className="sc-gKsewC donfPr"
+>
+  <div
+    className="sc-iBPRYJ fzwuen"
+  >
+    
+  </div>
+</div>
+`;
+
+exports[`Storyshots Molecules/ImageUploader Default 1`] = `
+<div
+  className="sc-fubCfw jDQQiB"
+  onDragEnter={[Function]}
+  onDragLeave={[Function]}
+  onDragOver={[Function]}
+  onDrop={[Function]}
+>
+  <div
+    className="sc-pFZIQ eWyoNh"
+  >
+    
+    <div
+      className="sc-jrAGrp bAtotA"
+    >
+      <div
+        className="sc-kEjbxe kcENuu"
+      >
+        <svg>
+          upload.svg
+        </svg>
+      </div>
+      <span>
+        Drag & Drop files here or click to upload
+      </span>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`Storyshots Molecules/ImageUploader Playground 1`] = `
+<div
+  className="sc-fubCfw jDQQiB"
+  onDragEnter={[Function]}
+  onDragLeave={[Function]}
+  onDragOver={[Function]}
+  onDrop={[Function]}
+>
+  <div
+    className="sc-pFZIQ eWyoNh"
+  >
+    
+    <div
+      className="sc-jrAGrp bAtotA"
+    >
+      <div
+        className="sc-kEjbxe kcENuu"
+      >
+        <svg>
+          upload.svg
+        </svg>
+      </div>
+      <span>
+        Drag & Drop files here or click to upload
+      </span>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`Storyshots Molecules/ModulesSearcher Default 1`] = `
+<div
+  className="sc-iqHYGH fIXTMS"
+>
+  <div
+    className="sc-gsTCUz inbFPe"
+  >
+    <h3>
+      canny
+    </h3>
+    <div
+      className="sc-dlfnbm iWmWxl"
+    >
+      <label
+        className="sc-eCssSg"
+        htmlFor="Name"
+      >
+        threshold1
+      </label>
+      <input
+        className="sc-hKgILt hEumgR"
+        id="Name"
+        name="Name"
+        onChange={[Function]}
+        type="number"
+        value={100}
+      />
+    </div>
+    <div
+      className="sc-dlfnbm iWmWxl"
+    >
+      <label
+        className="sc-eCssSg"
+        htmlFor="Name"
+      >
+        threshold2
+      </label>
+      <input
+        className="sc-hKgILt hEumgR"
+        id="Name"
+        name="Name"
+        onChange={[Function]}
+        type="number"
+        value={180}
+      />
+    </div>
+  </div>
+  <div
+    className="sc-gsTCUz inbFPe"
+  >
+    <h3>
+      NotCanny
+    </h3>
+    <div
+      className="sc-dlfnbm iWmWxl"
+    >
+      <label
+        className="sc-eCssSg"
+        htmlFor="Name"
+      >
+        threshold1
+      </label>
+      <input
+        className="sc-hKgILt hEumgR"
+        id="Name"
+        name="Name"
+        onChange={[Function]}
+        type="number"
+        value={100}
+      />
+    </div>
+    <div
+      className="sc-dlfnbm iWmWxl"
+    >
+      <label
+        className="sc-eCssSg"
+        htmlFor="Name"
+      >
+        threshold2
+      </label>
+      <input
+        className="sc-hKgILt hEumgR"
+        id="Name"
+        name="Name"
+        onChange={[Function]}
+        type="number"
+        value={180}
+      />
+    </div>
+  </div>
+</div>
+`;
+
+exports[`Storyshots Molecules/ModulesSearcher Playground 1`] = `
+<div
+  className="sc-iqHYGH htMlll"
+>
+  <div
+    className="sc-gsTCUz inbFPe"
+  >
+    <h3>
+      canny
+    </h3>
+    <div
+      className="sc-dlfnbm iWmWxl"
+    >
+      <label
+        className="sc-eCssSg"
+        htmlFor="Name"
+      >
+        threshold1
+      </label>
+      <input
+        className="sc-hKgILt hEumgR"
+        id="Name"
+        name="Name"
+        onChange={[Function]}
+        type="number"
+        value={100}
+      />
+    </div>
+    <div
+      className="sc-dlfnbm iWmWxl"
+    >
+      <label
+        className="sc-eCssSg"
+        htmlFor="Name"
+      >
+        threshold2
+      </label>
+      <input
+        className="sc-hKgILt hEumgR"
+        id="Name"
+        name="Name"
+        onChange={[Function]}
+        type="number"
+        value={180}
+      />
+    </div>
+  </div>
+  <div
+    className="sc-gsTCUz inbFPe"
+  >
+    <h3>
+      NotCanny
+    </h3>
+    <div
+      className="sc-dlfnbm iWmWxl"
+    >
+      <label
+        className="sc-eCssSg"
+        htmlFor="Name"
+      >
+        threshold1
+      </label>
+      <input
+        className="sc-hKgILt hEumgR"
+        id="Name"
+        name="Name"
+        onChange={[Function]}
+        type="number"
+        value={100}
+      />
+    </div>
+    <div
+      className="sc-dlfnbm iWmWxl"
+    >
+      <label
+        className="sc-eCssSg"
+        htmlFor="Name"
+      >
+        threshold2
+      </label>
+      <input
+        className="sc-hKgILt hEumgR"
+        id="Name"
+        name="Name"
+        onChange={[Function]}
+        type="number"
+        value={180}
+      />
+    </div>
+  </div>
+</div>
+`;

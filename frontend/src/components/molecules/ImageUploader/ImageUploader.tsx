@@ -1,10 +1,11 @@
 import React, { useState } from 'react';
-import { Container, ImageContainer } from './assets/styles';
-import { UploadYourFile } from '../../atoms';
+import { Container, ImageContainer, UploadContainer, UploadImageContainer } from './assets/styles';
+import { ReactComponent as UploadIcon } from './assets/upload.svg';
 
-type Props = {
+
+export type Props = {
   image: string
-  onFileDrop: (file: File, url: string) => void;
+  onFileDrop: (file: File) => void;
 }
 
 const ImageUploader: React.FC<Props> = ({image = '', onFileDrop}) => {
@@ -29,11 +30,7 @@ const ImageUploader: React.FC<Props> = ({image = '', onFileDrop}) => {
   const fileDrop = (event: React.DragEvent<HTMLDivElement>) => {
       event.preventDefault();
       const files = event.dataTransfer.files;
-      const reader = new FileReader () // FileReader interface to read the file
-      reader.readAsDataURL (files[0])
-      reader.onload = function() {
-        onFileDrop(files[0], String(this.result))
-      }
+      onFileDrop(files[0]);
       setDragging(false);
   }
 
@@ -47,7 +44,14 @@ const ImageUploader: React.FC<Props> = ({image = '', onFileDrop}) => {
     >
       <ImageContainer showBackground={!image} >
         {image && <img width="100%" src={image} alt="alt"/>}
-        {!image && <UploadYourFile />}
+        {!image && (
+          <UploadContainer>
+            <UploadImageContainer>
+              <UploadIcon />
+            </UploadImageContainer>
+            <span>Drag & Drop files here or click to upload</span>
+          </UploadContainer>
+        )}
       </ImageContainer>
     </Container>
   );
