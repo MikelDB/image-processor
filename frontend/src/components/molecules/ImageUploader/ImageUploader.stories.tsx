@@ -1,6 +1,7 @@
 import React from 'react';
 import ImageUploader, { Props } from './ImageUploader';
 import { Story, Meta } from '@storybook/react/types-6-0';
+import { SmallSizeDecorator } from 'utilities';
 
 const Template: Story<Props> = (args) => <ImageUploader {...args} />;
 
@@ -17,4 +18,5 @@ DefaultStory.storyName = 'Default';
 export default {
   title: 'Molecules/ImageUploader',
   component: DefaultStory,
+  decorators: [SmallSizeDecorator],
 } as Meta;
