@@ -1,10 +1,10 @@
 import styled from 'styled-components';
 
-type CardProps = {
+type ContainerProps = {
   isListElement: boolean;
 };
 
-export const Card = styled.div<CardProps>`
+export const Container = styled.div<ContainerProps>`
   display: flex;
   flex-direction: column;
   border: 1px solid #505050;
@@ -47,28 +47,4 @@ export const AddButton = styled.button`
 
 export const ContentContainer = styled.div`
   padding: 8px;
-`;
-
-export const PropertyContainer = styled.div`
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between;
-  min-width: 150px;
-  align-items: center;
-  margin: 2px 0;
-  font-size: 14px;
-`;
-
-export const PropertyStyledInput = styled.input`
-  max-width: 36px;
-  max-height: 1.5em;
-  background-color: #282c34;
-  color: white;
-  border: 1px solid black;
-  border-radius: 16px;
-  text-align: center;
-`;
-
-export const PropertyStyledLabel = styled.label`
-  text-transform: capitalize;
 `;

@@ -1,7 +1,11 @@
 import styled from 'styled-components';
 
 export const AppContainer = styled.div`
-  background-color: #282c34;
+  background-color: #393939;
+  background-image: linear-gradient(#313131 2px, transparent 2px),
+    linear-gradient(90deg, #313131 2px, transparent 2px);
+  background-size: 20px 20px, 20px 20px;
+  background-position: -2px -2px, -2px -2px;
   width: 100vw;
   height: 100vh;
   display: flex;
