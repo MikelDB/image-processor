@@ -4,3 +4,4 @@ backend/cert.pem
 backend/key.pem
 node_modules
 frontend/.eslintcache
+.eslintcache
