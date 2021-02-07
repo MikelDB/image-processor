@@ -13,7 +13,7 @@ const App: React.FC = () => {
   const { imageToProcess, storeAndProcessImage, processedImage } = useContext(
     ImagesContext
   );
-  const { filters } = useContext(FiltersContext);
+  const { filters, addFilter } = useContext(FiltersContext);
   const [showSearcher, setShowSearcher] = useState<boolean>(false);
 
   const saveImageAndPush = (file: File) => {
@@ -26,7 +26,7 @@ const App: React.FC = () => {
         <ImageUploader image={imageToProcess} onFileDrop={saveImageAndPush} />
         <FiltersViewer />
         <ImageHolder image={processedImage} />
-        <ModulesSearcher show={showSearcher} />
+        <ModulesSearcher show={showSearcher} addFilter={addFilter} />
         <AddButton
           active={showSearcher}
           onClick={() => setShowSearcher(!showSearcher)}

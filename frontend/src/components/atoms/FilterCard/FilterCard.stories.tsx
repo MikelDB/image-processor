@@ -3,6 +3,7 @@ import FilterCard, { Props } from './FilterCard';
 import { Story, Meta } from '@storybook/react/types-6-0';
 import { FiltersContext } from 'store';
 import { Filter, Property } from 'types';
+import { SmallSizeDecorator } from 'utilities';
 
 const context = {
   filters: [
@@ -63,11 +64,25 @@ Playground.args = {
       },
     ],
   },
+  addFilter: (filter: Filter) => console.log(filter),
 };
 
 export const DefaultStory = () => (
   <FiltersContext.Provider value={context}>
-    <FilterCard filter={mockFilter} />
+    <FilterCard
+      filter={mockFilter}
+      addFilter={(filter: Filter) => console.log(filter)}
+    />
+  </FiltersContext.Provider>
+);
+
+export const ForList = () => (
+  <FiltersContext.Provider value={context}>
+    <FilterCard
+      filter={mockFilter}
+      addFilter={(filter: Filter) => console.log(filter)}
+      isListElement
+    />
   </FiltersContext.Provider>
 );
 
@@ -76,4 +91,5 @@ DefaultStory.storyName = 'Default';
 export default {
   title: 'Atoms/FilterCard',
   component: DefaultStory,
+  decorators: [SmallSizeDecorator],
 } as Meta;

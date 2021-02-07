@@ -14,4 +14,5 @@ export const Container = styled.div<ContainerProps>`
   background-color: #40454f;
   border-radius: 4px;
   box-shadow: 0 1px 4px rgba(0, 0, 0, 0.6);
+  overflow: hidden;
 `;
