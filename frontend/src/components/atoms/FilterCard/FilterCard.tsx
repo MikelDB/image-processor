@@ -1,16 +1,12 @@
 import React, { useContext } from 'react';
 import {
-  Card,
   PropertyContainer,
   PropertyStyledInput,
   PropertyStyledLabel,
-  TitleContainer,
-  ContentContainer,
-  AddButton,
 } from './assets/styles';
 import { Filter } from 'types';
 import { FiltersContext } from 'store';
-import { ReactComponent as AddSVG } from './assets/iconmonstr-plus-2.svg';
+import { Card } from 'components';
 
 export type Props = {
   filter: Filter;
@@ -26,16 +22,12 @@ const FilterCard: React.FC<Props> = ({
   const { updateFilter } = useContext(FiltersContext);
 
   return (
-    <Card isListElement={isListElement}>
-      <TitleContainer>
-        <h4>{filter.name}</h4>
-        {addFilter && (
-          <AddButton onClick={() => addFilter(filter)}>
-            <AddSVG />
-          </AddButton>
-        )}
-      </TitleContainer>
-      <ContentContainer>
+    <Card
+      title={filter.name}
+      action={addFilter ? () => addFilter(filter) : undefined}
+      isListElement={isListElement}
+    >
+      <>
         {filter.properties.map((property) => (
           <PropertyContainer key={property.name}>
             <PropertyStyledLabel htmlFor="Name">
@@ -55,7 +47,7 @@ const FilterCard: React.FC<Props> = ({
             />
           </PropertyContainer>
         ))}
-      </ContentContainer>
+      </>
     </Card>
   );
 };

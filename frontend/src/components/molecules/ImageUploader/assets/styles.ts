@@ -2,28 +2,26 @@ import styled from 'styled-components';
 
 type ImageContainerProps = {
   showBackground: boolean;
-};
-
-type ContainerProps = {
   draggingBorder: boolean;
 };
 
-export const Container = styled.div<ContainerProps>`
+export const Container = styled.div`
   width: 400px;
-  border: ${({ draggingBorder }) =>
-    draggingBorder ? '8px dashed #61dafb' : '8px solid #ffffff'};
-  border-radius: 16px;
-  padding: 8px;
 `;
 
 export const ImageContainer = styled.div<ImageContainerProps>`
-  background-color: ${({ showBackground }) =>
-    showBackground ? '#40454f' : 'transparent'};
+  background-color: #393939;
+  background-image: linear-gradient(#313131 2px, transparent 2px),
+    linear-gradient(90deg, #313131 2px, transparent 2px);
+  background-size: 20px 20px, 20px 20px;
+  background-position: -2px -2px, -2px -2px;
   border-radius: 4px;
   height: ${({ showBackground }) => (!showBackground ? '100%' : '368px')};
   width: 100%;
   display: flex;
   align-items: center;
+  border: ${({ draggingBorder }) =>
+    draggingBorder ? '4px dashed #313131' : 'none'};
 `;
 
 export const UploadContainer = styled.div`

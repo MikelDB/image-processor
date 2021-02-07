@@ -6,6 +6,7 @@ import {
   UploadImageContainer,
 } from './assets/styles';
 import { ReactComponent as UploadIcon } from './assets/upload.svg';
+import { Card } from 'components';
 
 export type Props = {
   image: string;
@@ -43,19 +44,20 @@ const ImageUploader: React.FC<Props> = ({ image = '', onFileDrop }) => {
       onDragEnter={dragEnter}
       onDragLeave={dragLeave}
       onDrop={fileDrop}
-      draggingBorder={dragging}
     >
-      <ImageContainer showBackground={!image}>
-        {image && <img width="100%" src={image} alt="alt" />}
-        {!image && (
-          <UploadContainer>
-            <UploadImageContainer>
-              <UploadIcon />
-            </UploadImageContainer>
-            <span>Drag & Drop files here or click to upload</span>
-          </UploadContainer>
-        )}
-      </ImageContainer>
+      <Card title="Original Image" isListElement>
+        <ImageContainer showBackground={!image} draggingBorder={dragging}>
+          {image && <img width="100%" src={image} alt="alt" />}
+          {!image && (
+            <UploadContainer>
+              <UploadImageContainer>
+                <UploadIcon />
+              </UploadImageContainer>
+              <span>Drag & Drop files here or click to upload</span>
+            </UploadContainer>
+          )}
+        </ImageContainer>
+      </Card>
     </Container>
   );
 };
