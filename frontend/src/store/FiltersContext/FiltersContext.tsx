@@ -24,21 +24,7 @@ type ContexProviderProps = {
 export const FiltersContextProvider: React.FC<ContexProviderProps> = ({
   children,
 }) => {
-  const [filters, setFilters] = useState<Filter[]>([
-    {
-      name: 'canny',
-      properties: [
-        {
-          name: 'threshold1',
-          value: 100,
-        },
-        {
-          name: 'threshold2',
-          value: 180,
-        },
-      ],
-    },
-  ]);
+  const [filters, setFilters] = useState<Filter[]>([]);
 
   const addFilter = (filter: Filter) => {
     setFilters((prevState) => [...prevState, filter]);

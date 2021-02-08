@@ -1,26 +1,25 @@
-import React, { useContext } from 'react';
+import React from 'react';
 import {
   PropertyContainer,
   PropertyStyledInput,
   PropertyStyledLabel,
 } from './assets/styles';
-import { Filter } from 'types';
-import { FiltersContext } from 'store';
+import { Filter, Property } from 'types';
 import { Card } from 'components';
 
 export type Props = {
   filter: Filter;
   addFilter?: (filter: Filter) => void;
+  updateFilter?: (filter: Filter, property: Property) => void;
   isListElement?: boolean;
 };
 
 const FilterCard: React.FC<Props> = ({
   filter,
   addFilter,
+  updateFilter,
   isListElement = false,
 }) => {
-  const { updateFilter } = useContext(FiltersContext);
-
   return (
     <Card
       title={filter.name}
@@ -38,11 +37,14 @@ const FilterCard: React.FC<Props> = ({
               id="Name"
               name="Name"
               value={property.value}
-              onChange={(event) =>
-                updateFilter(filter, {
-                  name: property.name,
-                  value: property.value,
-                })
+              onChange={
+                updateFilter
+                  ? (event) =>
+                      updateFilter(filter, {
+                        name: property.name,
+                        value: Number(event.target.value),
+                      })
+                  : undefined
               }
             />
           </PropertyContainer>
