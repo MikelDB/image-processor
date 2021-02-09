@@ -5,25 +5,24 @@ type StyledButtonProps = {
 };
 
 export const StyledButton = styled.button<StyledButtonProps>`
-  position: fixed;
-  bottom: 40px;
-  right: 40px;
   border: 0;
   padding: 0;
-  background-color: #40454f;
+  background-color: #282c34;
   height: 60px;
   width: 60px;
-  border-radius: 30px;
+  border-radius: 30px 0 0 30px;
   box-shadow: 0 1px 4px rgba(0, 0, 0, 0.6);
-  fill: white;
+  fill: #5a5a5a;
   cursor: pointer;
-  transition: transform 2s;
-  transform: ${({ active }): string => (active ? 'rotate(405deg)' : '')};
   &:hover {
-    height: 66px;
+    height: 60px;
     width: 66px;
-    border-radius: 33px;
-    bottom: 37px;
-    right: 37px;
+    border-radius: 33px 0 0 33px;
+    fill: #9f9f9f;
+  }
+
+  & > svg {
+    transition: transform 1s;
+    transform: ${({ active }): string => (active ? 'rotate(405deg)' : '')};
   }
 `;

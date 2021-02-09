@@ -1,10 +1,9 @@
-import React, { useContext, useState } from 'react';
+import React, { useContext } from 'react';
 import {
   ImageHolder,
   ImageUploader,
   FiltersViewer,
-  ModulesSearcher,
-  AddButton,
+  SearchModal,
 } from 'components';
 import { AppContainer, MainContainer } from './assets/styles';
 import { ImagesContext, FiltersContext } from 'store';
@@ -16,7 +15,6 @@ const App: React.FC = () => {
   const { filters, addFilter, updateFilter, removeFilter } = useContext(
     FiltersContext
   );
-  const [showSearcher, setShowSearcher] = useState<boolean>(false);
 
   const saveImageAndPush = (file: File) => {
     storeAndProcessImage(file, filters);
@@ -32,11 +30,7 @@ const App: React.FC = () => {
           removeFilter={removeFilter}
         />
         <ImageHolder image={processedImage} />
-        <ModulesSearcher show={showSearcher} addFilter={addFilter} />
-        <AddButton
-          active={showSearcher}
-          onClick={() => setShowSearcher(!showSearcher)}
-        />
+        <SearchModal addFilter={addFilter} />
       </MainContainer>
     </AppContainer>
   );
