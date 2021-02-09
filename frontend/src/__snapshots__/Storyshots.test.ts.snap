@@ -2,7 +2,7 @@
 
 exports[`Storyshots Atoms/AddButton Default 1`] = `
 <button
-  className="sc-gsTCUz hhyhje"
+  className="sc-gsTCUz jDdXxJ"
   onClick={[Function]}
 >
   <svg>
@@ -13,7 +13,7 @@ exports[`Storyshots Atoms/AddButton Default 1`] = `
 
 exports[`Storyshots Atoms/AddButton Playground 1`] = `
 <button
-  className="sc-gsTCUz hhyhje"
+  className="sc-gsTCUz jDdXxJ"
   onClick={[Function]}
 >
   <svg>
@@ -850,21 +850,18 @@ exports[`Storyshots Molecules/ImageUploader Playground 1`] = `
 </div>
 `;
 
-exports[`Storyshots Molecules/ModulesSearcher Default 1`] = `
+exports[`Storyshots Molecules/SearchModal Default 1`] = `
 <div
-  className="sc-hBEYos dxYlPH"
+  className="sc-bdfBwQ bMBlQa"
 >
   <div
-    className="sc-dlfnbm jzxTJJ"
+    className="sc-hBEYos gVIUbc"
   >
     <div
-      className="sc-hKgILt hABwZ"
+      className="sc-fodVxV hVshRu"
     >
-      <h4>
-        canny
-      </h4>
       <button
-        className="sc-eCssSg kxVLt"
+        className="sc-gsTCUz jDdXxJ"
         onClick={[Function]}
       >
         <svg>
@@ -873,203 +870,262 @@ exports[`Storyshots Molecules/ModulesSearcher Default 1`] = `
       </button>
     </div>
     <div
-      className="sc-jSgupP cPzjif"
+      className="sc-bkzZxe hMaSji"
     >
       <div
-        className="sc-iBPRYJ facBnY"
+        className="sc-dlfnbm jzxTJJ"
       >
-        <label
-          className="sc-pFZIQ kkcIHp"
-          htmlFor="Name"
+        <div
+          className="sc-hKgILt hABwZ"
         >
-          threshold1
-        </label>
-        <input
-          className="sc-fubCfw gKemuU"
-          id="Name"
-          name="Name"
-          type="number"
-          value={100}
-        />
+          <h4>
+            canny
+          </h4>
+          <button
+            className="sc-eCssSg kxVLt"
+            onClick={[Function]}
+          >
+            <svg>
+              iconmonstr-plus-2.svg
+            </svg>
+          </button>
+        </div>
+        <div
+          className="sc-jSgupP cPzjif"
+        >
+          <div
+            className="sc-iBPRYJ facBnY"
+          >
+            <label
+              className="sc-pFZIQ kkcIHp"
+              htmlFor="Name"
+            >
+              threshold1
+            </label>
+            <input
+              className="sc-fubCfw gKemuU"
+              id="Name"
+              name="Name"
+              type="number"
+              value={100}
+            />
+          </div>
+          <div
+            className="sc-iBPRYJ facBnY"
+          >
+            <label
+              className="sc-pFZIQ kkcIHp"
+              htmlFor="Name"
+            >
+              threshold2
+            </label>
+            <input
+              className="sc-fubCfw gKemuU"
+              id="Name"
+              name="Name"
+              type="number"
+              value={180}
+            />
+          </div>
+        </div>
       </div>
       <div
-        className="sc-iBPRYJ facBnY"
+        className="sc-dlfnbm jzxTJJ"
       >
-        <label
-          className="sc-pFZIQ kkcIHp"
-          htmlFor="Name"
+        <div
+          className="sc-hKgILt hABwZ"
         >
-          threshold2
-        </label>
-        <input
-          className="sc-fubCfw gKemuU"
-          id="Name"
-          name="Name"
-          type="number"
-          value={180}
-        />
-      </div>
-    </div>
-  </div>
-  <div
-    className="sc-dlfnbm jzxTJJ"
-  >
-    <div
-      className="sc-hKgILt hABwZ"
-    >
-      <h4>
-        NotCanny
-      </h4>
-      <button
-        className="sc-eCssSg kxVLt"
-        onClick={[Function]}
-      >
-        <svg>
-          iconmonstr-plus-2.svg
-        </svg>
-      </button>
-    </div>
-    <div
-      className="sc-jSgupP cPzjif"
-    >
-      <div
-        className="sc-iBPRYJ facBnY"
-      >
-        <label
-          className="sc-pFZIQ kkcIHp"
-          htmlFor="Name"
+          <h4>
+            NotCanny
+          </h4>
+          <button
+            className="sc-eCssSg kxVLt"
+            onClick={[Function]}
+          >
+            <svg>
+              iconmonstr-plus-2.svg
+            </svg>
+          </button>
+        </div>
+        <div
+          className="sc-jSgupP cPzjif"
         >
-          threshold1
-        </label>
-        <input
-          className="sc-fubCfw gKemuU"
-          id="Name"
-          name="Name"
-          type="number"
-          value={100}
-        />
-      </div>
-      <div
-        className="sc-iBPRYJ facBnY"
-      >
-        <label
-          className="sc-pFZIQ kkcIHp"
-          htmlFor="Name"
-        >
-          threshold2
-        </label>
-        <input
-          className="sc-fubCfw gKemuU"
-          id="Name"
-          name="Name"
-          type="number"
-          value={180}
-        />
+          <div
+            className="sc-iBPRYJ facBnY"
+          >
+            <label
+              className="sc-pFZIQ kkcIHp"
+              htmlFor="Name"
+            >
+              threshold1
+            </label>
+            <input
+              className="sc-fubCfw gKemuU"
+              id="Name"
+              name="Name"
+              type="number"
+              value={100}
+            />
+          </div>
+          <div
+            className="sc-iBPRYJ facBnY"
+          >
+            <label
+              className="sc-pFZIQ kkcIHp"
+              htmlFor="Name"
+            >
+              threshold2
+            </label>
+            <input
+              className="sc-fubCfw gKemuU"
+              id="Name"
+              name="Name"
+              type="number"
+              value={180}
+            />
+          </div>
+        </div>
       </div>
     </div>
   </div>
 </div>
 `;
 
-exports[`Storyshots Molecules/ModulesSearcher Playground 1`] = `
+exports[`Storyshots Molecules/SearchModal Playground 1`] = `
 <div
-  className="sc-hBEYos gIHzFk"
+  className="sc-bdfBwQ bMBlQa"
 >
   <div
-    className="sc-dlfnbm jzxTJJ"
+    className="sc-hBEYos gVIUbc"
   >
     <div
-      className="sc-hKgILt hABwZ"
+      className="sc-fodVxV hVshRu"
     >
-      <h4>
-        canny
-      </h4>
+      <button
+        className="sc-gsTCUz jDdXxJ"
+        onClick={[Function]}
+      >
+        <svg>
+          iconmonstr-plus-2.svg
+        </svg>
+      </button>
     </div>
     <div
-      className="sc-jSgupP cPzjif"
+      className="sc-bkzZxe hMaSji"
     >
       <div
-        className="sc-iBPRYJ facBnY"
+        className="sc-dlfnbm jzxTJJ"
       >
-        <label
-          className="sc-pFZIQ kkcIHp"
-          htmlFor="Name"
+        <div
+          className="sc-hKgILt hABwZ"
         >
-          threshold1
-        </label>
-        <input
-          className="sc-fubCfw gKemuU"
-          id="Name"
-          name="Name"
-          type="number"
-          value={100}
-        />
+          <h4>
+            canny
+          </h4>
+          <button
+            className="sc-eCssSg kxVLt"
+            onClick={[Function]}
+          >
+            <svg>
+              iconmonstr-plus-2.svg
+            </svg>
+          </button>
+        </div>
+        <div
+          className="sc-jSgupP cPzjif"
+        >
+          <div
+            className="sc-iBPRYJ facBnY"
+          >
+            <label
+              className="sc-pFZIQ kkcIHp"
+              htmlFor="Name"
+            >
+              threshold1
+            </label>
+            <input
+              className="sc-fubCfw gKemuU"
+              id="Name"
+              name="Name"
+              type="number"
+              value={100}
+            />
+          </div>
+          <div
+            className="sc-iBPRYJ facBnY"
+          >
+            <label
+              className="sc-pFZIQ kkcIHp"
+              htmlFor="Name"
+            >
+              threshold2
+            </label>
+            <input
+              className="sc-fubCfw gKemuU"
+              id="Name"
+              name="Name"
+              type="number"
+              value={180}
+            />
+          </div>
+        </div>
       </div>
       <div
-        className="sc-iBPRYJ facBnY"
+        className="sc-dlfnbm jzxTJJ"
       >
-        <label
-          className="sc-pFZIQ kkcIHp"
-          htmlFor="Name"
+        <div
+          className="sc-hKgILt hABwZ"
         >
-          threshold2
-        </label>
-        <input
-          className="sc-fubCfw gKemuU"
-          id="Name"
-          name="Name"
-          type="number"
-          value={180}
-        />
-      </div>
-    </div>
-  </div>
-  <div
-    className="sc-dlfnbm jzxTJJ"
-  >
-    <div
-      className="sc-hKgILt hABwZ"
-    >
-      <h4>
-        NotCanny
-      </h4>
-    </div>
-    <div
-      className="sc-jSgupP cPzjif"
-    >
-      <div
-        className="sc-iBPRYJ facBnY"
-      >
-        <label
-          className="sc-pFZIQ kkcIHp"
-          htmlFor="Name"
+          <h4>
+            NotCanny
+          </h4>
+          <button
+            className="sc-eCssSg kxVLt"
+            onClick={[Function]}
+          >
+            <svg>
+              iconmonstr-plus-2.svg
+            </svg>
+          </button>
+        </div>
+        <div
+          className="sc-jSgupP cPzjif"
         >
-          threshold1
-        </label>
-        <input
-          className="sc-fubCfw gKemuU"
-          id="Name"
-          name="Name"
-          type="number"
-          value={100}
-        />
-      </div>
-      <div
-        className="sc-iBPRYJ facBnY"
-      >
-        <label
-          className="sc-pFZIQ kkcIHp"
-          htmlFor="Name"
-        >
-          threshold2
-        </label>
-        <input
-          className="sc-fubCfw gKemuU"
-          id="Name"
-          name="Name"
-          type="number"
-          value={180}
-        />
+          <div
+            className="sc-iBPRYJ facBnY"
+          >
+            <label
+              className="sc-pFZIQ kkcIHp"
+              htmlFor="Name"
+            >
+              threshold1
+            </label>
+            <input
+              className="sc-fubCfw gKemuU"
+              id="Name"
+              name="Name"
+              type="number"
+              value={100}
+            />
+          </div>
+          <div
+            className="sc-iBPRYJ facBnY"
+          >
+            <label
+              className="sc-pFZIQ kkcIHp"
+              htmlFor="Name"
+            >
+              threshold2
+            </label>
+            <input
+              className="sc-fubCfw gKemuU"
+              id="Name"
+              name="Name"
+              type="number"
+              value={180}
+            />
+          </div>
+        </div>
       </div>
     </div>
   </div>
