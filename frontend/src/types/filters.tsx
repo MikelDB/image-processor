@@ -1,11 +1,12 @@
 export type Property = {
-    name: string;
-    value: number;
-}
+  name: string;
+  value: number;
+};
 
 export type Filter = {
-    name: string;
-    properties: Array<Property>;
+  id?: string;
+  name: string;
+  properties: Array<Property>;
 };
 
 export {};

@@ -3,6 +3,7 @@ import { Filter } from '../../types';
 
 export const ImagesContext = createContext({
   imageToProcess: '',
+  imageToProcessFile: new File([''], 'filename'),
   processedImage: '',
   pushImage: (file: File, filters: Filter[]) =>
     console.log('initialize undefined'),
@@ -53,6 +54,7 @@ export const ImagesContextProvider: React.FC<GiftListContexProps> = ({
 
   const context = {
     imageToProcess,
+    imageToProcessFile,
     storeImageToProcess,
     processedImage,
     pushImage,

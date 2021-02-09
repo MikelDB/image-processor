@@ -1,9 +1,14 @@
 import styled from 'styled-components';
 
 export const Container = styled.div`
-  min-width: 100px;
-  min-height: 75px;
-  border: 4px dotted #61dafb;
-  border-radius: 12px;
+  min-width: 200px;
+  max-height: 300px;
   padding: 4px;
+  overflow-y: scroll;
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+
+  &::-webkit-scrollbar {
+    display: none;
+  }
 `;

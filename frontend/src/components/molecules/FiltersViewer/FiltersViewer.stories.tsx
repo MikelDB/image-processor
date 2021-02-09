@@ -1,46 +1,68 @@
 import React from 'react';
-import FiltersViewer from './FiltersViewer';
+import FiltersViewer, { Props } from './FiltersViewer';
 import { Story, Meta } from '@storybook/react/types-6-0';
-import { FiltersContext } from 'store';
 import { Filter, Property } from 'types';
+import { SmallSizeDecorator } from 'utilities';
+import { action } from '@storybook/addon-actions';
 
-const context = {
-  filters: [
-    {
-      name: 'canny',
-      properties: [
-        {
-          name: 'threshold1',
-          value: 100,
-        },
-        {
-          name: 'threshold2',
-          value: 180,
-        },
-      ],
-    },
-  ],
-  addFilter: (filter: Filter) => console.log('add filter undefined', filter),
-  removeFilter: (filterId: string) =>
-    console.log('remove filter undefined', filterId),
-  updateFilter: (filter: Filter, property: Property) =>
-    console.log('update filter not implemented', filter, property),
-};
+const filters = [
+  {
+    name: 'canny',
+    properties: [
+      {
+        name: 'threshold1',
+        value: 100,
+      },
+      {
+        name: 'threshold2',
+        value: 180,
+      },
+    ],
+  },
+  {
+    name: 'canny',
+    properties: [
+      {
+        name: 'threshold1',
+        value: 100,
+      },
+      {
+        name: 'threshold2',
+        value: 180,
+      },
+    ],
+  },
+  {
+    name: 'canny',
+    properties: [
+      {
+        name: 'threshold1',
+        value: 100,
+      },
+      {
+        name: 'threshold2',
+        value: 180,
+      },
+    ],
+  },
+];
 
-const Template: Story = (args) => (
-  <FiltersContext.Provider value={context}>
-    <FiltersViewer {...args} />
-  </FiltersContext.Provider>
-);
+const Template: Story<Props> = (args) => <FiltersViewer {...args} />;
 
 export const Playground = Template.bind({});
 
-Playground.args = {};
+Playground.args = {
+  filters: filters,
+  updateFilter: action('update-filter'),
+  removeFilter: action('remove-filter'),
+};
 
 export const DefaultStory = () => (
-  <FiltersContext.Provider value={context}>
-    <FiltersViewer />
-  </FiltersContext.Provider>
+  <FiltersViewer
+    filters={filters}
+    updateFilter={action('update-filter')}
+    removeFilter={action('remove-filter')}
+  />
 );
 
 DefaultStory.storyName = 'Default';
@@ -48,4 +70,5 @@ DefaultStory.storyName = 'Default';
 export default {
   title: 'Molecules/FiltersViewer',
   component: DefaultStory,
+  decorators: [SmallSizeDecorator],
 } as Meta;
