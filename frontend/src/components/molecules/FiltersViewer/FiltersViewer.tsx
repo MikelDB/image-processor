@@ -6,9 +6,14 @@ import { Container } from './assets/styles';
 export type Props = {
   filters: Filter[];
   updateFilter: (filter: Filter, property: Property) => void;
+  removeFilter: (filter: Filter) => void;
 };
 
-const FiltersViewer: React.FC<Props> = ({ filters, updateFilter }) => {
+const FiltersViewer: React.FC<Props> = ({
+  filters,
+  updateFilter,
+  removeFilter,
+}) => {
   return (
     <Card title="Actions to carry" isListElement>
       <Container>
@@ -19,6 +24,7 @@ const FiltersViewer: React.FC<Props> = ({ filters, updateFilter }) => {
               key={`${filter.name}-${index}`}
               updateFilter={updateFilter}
               isListElement
+              removeFilter={() => removeFilter(filter)}
             />
           )
         )}

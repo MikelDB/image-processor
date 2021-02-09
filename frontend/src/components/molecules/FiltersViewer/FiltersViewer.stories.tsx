@@ -3,6 +3,7 @@ import FiltersViewer, { Props } from './FiltersViewer';
 import { Story, Meta } from '@storybook/react/types-6-0';
 import { Filter, Property } from 'types';
 import { SmallSizeDecorator } from 'utilities';
+import { action } from '@storybook/addon-actions';
 
 const filters = [
   {
@@ -52,13 +53,15 @@ export const Playground = Template.bind({});
 
 Playground.args = {
   filters: filters,
-  updateFilter: (filter: Filter, property: Property) => console.log('asdasd'),
+  updateFilter: action('update-filter'),
+  removeFilter: action('remove-filter'),
 };
 
 export const DefaultStory = () => (
   <FiltersViewer
     filters={filters}
-    updateFilter={(filter: Filter, property: Property) => console.log('asdasd')}
+    updateFilter={action('update-filter')}
+    removeFilter={action('remove-filter')}
   />
 );
 

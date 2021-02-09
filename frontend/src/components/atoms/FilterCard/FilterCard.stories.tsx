@@ -1,7 +1,6 @@
 import React from 'react';
 import FilterCard, { Props } from './FilterCard';
 import { Story, Meta } from '@storybook/react/types-6-0';
-import { FiltersContext } from 'store';
 import { Filter, Property } from 'types';
 import { SmallSizeDecorator } from 'utilities';
 

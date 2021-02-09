@@ -5,11 +5,16 @@ import {
   ContentContainer,
   AddButton,
 } from './assets/styles';
-import { ReactComponent as AddSVG } from './assets/iconmonstr-plus-2.svg';
+
+export type CardActionProps = {
+  onClick: () => void;
+  ActionIcon: React.FunctionComponent<React.SVGProps<SVGSVGElement>>;
+  isBig?: boolean;
+};
 
 export type Props = {
   title: string;
-  action?: () => void;
+  action?: CardActionProps;
   children?: React.ReactElement;
   isListElement: boolean;
 };
@@ -20,8 +25,8 @@ const Card: React.FC<Props> = ({ title, action, children, isListElement }) => {
       <TitleContainer>
         <h4>{title}</h4>
         {action && (
-          <AddButton onClick={() => action()}>
-            <AddSVG />
+          <AddButton onClick={() => action.onClick()}>
+            <action.ActionIcon />
           </AddButton>
         )}
       </TitleContainer>

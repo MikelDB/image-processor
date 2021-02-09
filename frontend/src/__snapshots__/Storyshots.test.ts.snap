@@ -309,56 +309,201 @@ exports[`Storyshots Atoms/FilterCard Playground 1`] = `
 
 exports[`Storyshots Molecules/FiltersViewer Default 1`] = `
 <div
-  className="sc-kstrdz elxhyL"
+  className="sc-bdfBwQ bMBlQa"
 >
   <div
-    className="sc-dlfnbm gqONlB"
+    className="sc-dlfnbm jzxTJJ"
   >
     <div
       className="sc-hKgILt hABwZ"
     >
       <h4>
-        canny
+        Actions to carry
       </h4>
     </div>
     <div
       className="sc-jSgupP cPzjif"
     >
       <div
-        className="sc-iBPRYJ facBnY"
+        className="sc-kstrdz bkVtUw"
       >
-        <label
-          className="sc-pFZIQ kkcIHp"
-          htmlFor="Name"
+        <div
+          className="sc-dlfnbm jzxTJJ"
         >
-          threshold1
-        </label>
-        <input
-          className="sc-fubCfw gKemuU"
-          id="Name"
-          name="Name"
-          onChange={[Function]}
-          type="number"
-          value={100}
-        />
-      </div>
-      <div
-        className="sc-iBPRYJ facBnY"
-      >
-        <label
-          className="sc-pFZIQ kkcIHp"
-          htmlFor="Name"
+          <div
+            className="sc-hKgILt hABwZ"
+          >
+            <h4>
+              canny
+            </h4>
+            <button
+              className="sc-eCssSg kxVLt"
+              onClick={[Function]}
+            >
+              <svg>
+                minus.svg
+              </svg>
+            </button>
+          </div>
+          <div
+            className="sc-jSgupP cPzjif"
+          >
+            <div
+              className="sc-iBPRYJ facBnY"
+            >
+              <label
+                className="sc-pFZIQ kkcIHp"
+                htmlFor="Name"
+              >
+                threshold1
+              </label>
+              <input
+                className="sc-fubCfw gKemuU"
+                id="Name"
+                name="Name"
+                onChange={[Function]}
+                type="number"
+                value={100}
+              />
+            </div>
+            <div
+              className="sc-iBPRYJ facBnY"
+            >
+              <label
+                className="sc-pFZIQ kkcIHp"
+                htmlFor="Name"
+              >
+                threshold2
+              </label>
+              <input
+                className="sc-fubCfw gKemuU"
+                id="Name"
+                name="Name"
+                onChange={[Function]}
+                type="number"
+                value={180}
+              />
+            </div>
+          </div>
+        </div>
+        <div
+          className="sc-dlfnbm jzxTJJ"
         >
-          threshold2
-        </label>
-        <input
-          className="sc-fubCfw gKemuU"
-          id="Name"
-          name="Name"
-          onChange={[Function]}
-          type="number"
-          value={180}
-        />
+          <div
+            className="sc-hKgILt hABwZ"
+          >
+            <h4>
+              canny
+            </h4>
+            <button
+              className="sc-eCssSg kxVLt"
+              onClick={[Function]}
+            >
+              <svg>
+                minus.svg
+              </svg>
+            </button>
+          </div>
+          <div
+            className="sc-jSgupP cPzjif"
+          >
+            <div
+              className="sc-iBPRYJ facBnY"
+            >
+              <label
+                className="sc-pFZIQ kkcIHp"
+                htmlFor="Name"
+              >
+                threshold1
+              </label>
+              <input
+                className="sc-fubCfw gKemuU"
+                id="Name"
+                name="Name"
+                onChange={[Function]}
+                type="number"
+                value={100}
+              />
+            </div>
+            <div
+              className="sc-iBPRYJ facBnY"
+            >
+              <label
+                className="sc-pFZIQ kkcIHp"
+                htmlFor="Name"
+              >
+                threshold2
+              </label>
+              <input
+                className="sc-fubCfw gKemuU"
+                id="Name"
+                name="Name"
+                onChange={[Function]}
+                type="number"
+                value={180}
+              />
+            </div>
+          </div>
+        </div>
+        <div
+          className="sc-dlfnbm jzxTJJ"
+        >
+          <div
+            className="sc-hKgILt hABwZ"
+          >
+            <h4>
+              canny
+            </h4>
+            <button
+              className="sc-eCssSg kxVLt"
+              onClick={[Function]}
+            >
+              <svg>
+                minus.svg
+              </svg>
+            </button>
+          </div>
+          <div
+            className="sc-jSgupP cPzjif"
+          >
+            <div
+              className="sc-iBPRYJ facBnY"
+            >
+              <label
+                className="sc-pFZIQ kkcIHp"
+                htmlFor="Name"
+              >
+                threshold1
+              </label>
+              <input
+                className="sc-fubCfw gKemuU"
+                id="Name"
+                name="Name"
+                onChange={[Function]}
+                type="number"
+                value={100}
+              />
+            </div>
+            <div
+              className="sc-iBPRYJ facBnY"
+            >
+              <label
+                className="sc-pFZIQ kkcIHp"
+                htmlFor="Name"
+              >
+                threshold2
+              </label>
+              <input
+                className="sc-fubCfw gKemuU"
+                id="Name"
+                name="Name"
+                onChange={[Function]}
+                type="number"
+                value={180}
+              />
+            </div>
+          </div>
+        </div>
       </div>
     </div>
   </div>
@@ -367,56 +512,201 @@ exports[`Storyshots Molecules/FiltersViewer Default 1`] = `
 
 exports[`Storyshots Molecules/FiltersViewer Playground 1`] = `
 <div
-  className="sc-kstrdz elxhyL"
+  className="sc-bdfBwQ bMBlQa"
 >
   <div
-    className="sc-dlfnbm gqONlB"
+    className="sc-dlfnbm jzxTJJ"
   >
     <div
       className="sc-hKgILt hABwZ"
     >
       <h4>
-        canny
+        Actions to carry
       </h4>
     </div>
     <div
       className="sc-jSgupP cPzjif"
     >
       <div
-        className="sc-iBPRYJ facBnY"
+        className="sc-kstrdz bkVtUw"
       >
-        <label
-          className="sc-pFZIQ kkcIHp"
-          htmlFor="Name"
+        <div
+          className="sc-dlfnbm jzxTJJ"
         >
-          threshold1
-        </label>
-        <input
-          className="sc-fubCfw gKemuU"
-          id="Name"
-          name="Name"
-          onChange={[Function]}
-          type="number"
-          value={100}
-        />
-      </div>
-      <div
-        className="sc-iBPRYJ facBnY"
-      >
-        <label
-          className="sc-pFZIQ kkcIHp"
-          htmlFor="Name"
+          <div
+            className="sc-hKgILt hABwZ"
+          >
+            <h4>
+              canny
+            </h4>
+            <button
+              className="sc-eCssSg kxVLt"
+              onClick={[Function]}
+            >
+              <svg>
+                minus.svg
+              </svg>
+            </button>
+          </div>
+          <div
+            className="sc-jSgupP cPzjif"
+          >
+            <div
+              className="sc-iBPRYJ facBnY"
+            >
+              <label
+                className="sc-pFZIQ kkcIHp"
+                htmlFor="Name"
+              >
+                threshold1
+              </label>
+              <input
+                className="sc-fubCfw gKemuU"
+                id="Name"
+                name="Name"
+                onChange={[Function]}
+                type="number"
+                value={100}
+              />
+            </div>
+            <div
+              className="sc-iBPRYJ facBnY"
+            >
+              <label
+                className="sc-pFZIQ kkcIHp"
+                htmlFor="Name"
+              >
+                threshold2
+              </label>
+              <input
+                className="sc-fubCfw gKemuU"
+                id="Name"
+                name="Name"
+                onChange={[Function]}
+                type="number"
+                value={180}
+              />
+            </div>
+          </div>
+        </div>
+        <div
+          className="sc-dlfnbm jzxTJJ"
         >
-          threshold2
-        </label>
-        <input
-          className="sc-fubCfw gKemuU"
-          id="Name"
-          name="Name"
-          onChange={[Function]}
-          type="number"
-          value={180}
-        />
+          <div
+            className="sc-hKgILt hABwZ"
+          >
+            <h4>
+              canny
+            </h4>
+            <button
+              className="sc-eCssSg kxVLt"
+              onClick={[Function]}
+            >
+              <svg>
+                minus.svg
+              </svg>
+            </button>
+          </div>
+          <div
+            className="sc-jSgupP cPzjif"
+          >
+            <div
+              className="sc-iBPRYJ facBnY"
+            >
+              <label
+                className="sc-pFZIQ kkcIHp"
+                htmlFor="Name"
+              >
+                threshold1
+              </label>
+              <input
+                className="sc-fubCfw gKemuU"
+                id="Name"
+                name="Name"
+                onChange={[Function]}
+                type="number"
+                value={100}
+              />
+            </div>
+            <div
+              className="sc-iBPRYJ facBnY"
+            >
+              <label
+                className="sc-pFZIQ kkcIHp"
+                htmlFor="Name"
+              >
+                threshold2
+              </label>
+              <input
+                className="sc-fubCfw gKemuU"
+                id="Name"
+                name="Name"
+                onChange={[Function]}
+                type="number"
+                value={180}
+              />
+            </div>
+          </div>
+        </div>
+        <div
+          className="sc-dlfnbm jzxTJJ"
+        >
+          <div
+            className="sc-hKgILt hABwZ"
+          >
+            <h4>
+              canny
+            </h4>
+            <button
+              className="sc-eCssSg kxVLt"
+              onClick={[Function]}
+            >
+              <svg>
+                minus.svg
+              </svg>
+            </button>
+          </div>
+          <div
+            className="sc-jSgupP cPzjif"
+          >
+            <div
+              className="sc-iBPRYJ facBnY"
+            >
+              <label
+                className="sc-pFZIQ kkcIHp"
+                htmlFor="Name"
+              >
+                threshold1
+              </label>
+              <input
+                className="sc-fubCfw gKemuU"
+                id="Name"
+                name="Name"
+                onChange={[Function]}
+                type="number"
+                value={100}
+              />
+            </div>
+            <div
+              className="sc-iBPRYJ facBnY"
+            >
+              <label
+                className="sc-pFZIQ kkcIHp"
+                htmlFor="Name"
+              >
+                threshold2
+              </label>
+              <input
+                className="sc-fubCfw gKemuU"
+                id="Name"
+                name="Name"
+                onChange={[Function]}
+                type="number"
+                value={180}
+              />
+            </div>
+          </div>
+        </div>
       </div>
     </div>
   </div>
@@ -439,6 +729,14 @@ exports[`Storyshots Molecules/ImageHolder Primary 1`] = `
         <h4>
           Processed Image
         </h4>
+        <button
+          className="sc-eCssSg kxVLt"
+          onClick={[Function]}
+        >
+          <svg>
+            floppy-disk.svg
+          </svg>
+        </button>
       </div>
       <div
         className="sc-jSgupP cPzjif"
@@ -590,7 +888,6 @@ exports[`Storyshots Molecules/ModulesSearcher Default 1`] = `
           className="sc-fubCfw gKemuU"
           id="Name"
           name="Name"
-          onChange={[Function]}
           type="number"
           value={100}
         />
@@ -608,7 +905,6 @@ exports[`Storyshots Molecules/ModulesSearcher Default 1`] = `
           className="sc-fubCfw gKemuU"
           id="Name"
           name="Name"
-          onChange={[Function]}
           type="number"
           value={180}
         />
@@ -649,7 +945,6 @@ exports[`Storyshots Molecules/ModulesSearcher Default 1`] = `
           className="sc-fubCfw gKemuU"
           id="Name"
           name="Name"
-          onChange={[Function]}
           type="number"
           value={100}
         />
@@ -667,7 +962,6 @@ exports[`Storyshots Molecules/ModulesSearcher Default 1`] = `
           className="sc-fubCfw gKemuU"
           id="Name"
           name="Name"
-          onChange={[Function]}
           type="number"
           value={180}
         />
@@ -707,7 +1001,6 @@ exports[`Storyshots Molecules/ModulesSearcher Playground 1`] = `
           className="sc-fubCfw gKemuU"
           id="Name"
           name="Name"
-          onChange={[Function]}
           type="number"
           value={100}
         />
@@ -725,7 +1018,6 @@ exports[`Storyshots Molecules/ModulesSearcher Playground 1`] = `
           className="sc-fubCfw gKemuU"
           id="Name"
           name="Name"
-          onChange={[Function]}
           type="number"
           value={180}
         />
@@ -758,7 +1050,6 @@ exports[`Storyshots Molecules/ModulesSearcher Playground 1`] = `
           className="sc-fubCfw gKemuU"
           id="Name"
           name="Name"
-          onChange={[Function]}
           type="number"
           value={100}
         />
@@ -776,7 +1067,6 @@ exports[`Storyshots Molecules/ModulesSearcher Playground 1`] = `
           className="sc-fubCfw gKemuU"
           id="Name"
           name="Name"
-          onChange={[Function]}
           type="number"
           value={180}
         />

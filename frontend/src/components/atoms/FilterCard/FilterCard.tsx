@@ -5,11 +5,14 @@ import {
   PropertyStyledLabel,
 } from './assets/styles';
 import { Filter, Property } from 'types';
-import { Card } from 'components';
+import { Card, CardActionProps } from 'components';
+import { ReactComponent as AddSVG } from './assets/iconmonstr-plus-2.svg';
+import { ReactComponent as RemoveSVG } from './assets/minus.svg';
 
 export type Props = {
   filter: Filter;
   addFilter?: (filter: Filter) => void;
+  removeFilter?: (filter: Filter) => void;
   updateFilter?: (filter: Filter, property: Property) => void;
   isListElement?: boolean;
 };
@@ -17,13 +20,49 @@ export type Props = {
 const FilterCard: React.FC<Props> = ({
   filter,
   addFilter,
+  removeFilter,
   updateFilter,
   isListElement = false,
 }) => {
+  const selectFilterAction = () => {
+    if (addFilter) {
+      return () => addFilter(filter);
+    }
+
+    if (removeFilter) {
+      return () => removeFilter(filter);
+    }
+
+    return () => {};
+  };
+
+  const selectActionIcon = () => {
+    if (addFilter) {
+      return AddSVG;
+    }
+
+    if (removeFilter) {
+      return RemoveSVG;
+    }
+
+    return AddSVG;
+  };
+
+  const getCardAction = (): CardActionProps | undefined => {
+    if (!removeFilter && !addFilter) {
+      return undefined;
+    }
+
+    return {
+      onClick: selectFilterAction(),
+      ActionIcon: selectActionIcon(),
+    };
+  };
+
   return (
     <Card
       title={filter.name}
-      action={addFilter ? () => addFilter(filter) : undefined}
+      action={getCardAction()}
       isListElement={isListElement}
     >
       <>
